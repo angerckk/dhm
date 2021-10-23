@@ -4,7 +4,7 @@ superhuman = false
 	plr = game.Players.LocalPlayer
 	mouse = plr:GetMouse()
 	mouse.KeyDown:connect(function(key)
-		if key == "z" and superhuman == false then
+		if key == _G.Keybind and superhuman == false then
 			superhuman = true
 --[[
    By Peyton
@@ -33,7 +33,7 @@ local Humanoid = LocalPlayer.Character:FindFirstChildOfClass('Humanoid')
 Humanoid.WalkSpeed = _G.Speed
 Humanoid.JumpPower = 50
 
-		elseif key == "z" and superhuman == true then
+		elseif key == _G.Keybind and superhuman == true then
 			superhuman = false
 --[[
    By Peyton
