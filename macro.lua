@@ -30,7 +30,7 @@ end)
 setreadonly(mt, true)
 
 local Humanoid = LocalPlayer.Character:FindFirstChildOfClass('Humanoid')
-Humanoid.WalkSpeed = 200
+Humanoid.WalkSpeed = _G.Speed
 Humanoid.JumpPower = 50
 
 		elseif key == "z" and superhuman == true then
@@ -59,7 +59,7 @@ end)
 setreadonly(mt, true)
 
 local Humanoid = LocalPlayer.Character:FindFirstChildOfClass('Humanoid')
-Humanoid.WalkSpeed = _G.Speed
+Humanoid.WalkSpeed = 16
 Humanoid.JumpPower = 50
 
 		end
